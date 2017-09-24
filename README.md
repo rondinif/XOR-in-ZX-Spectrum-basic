@@ -1,19 +1,15 @@
 # Performace test data sheet
 
----+---------------------------------+---------------+---------------+
-   |                                 |    with FN    |  without FN   |
-n  | xor mimic method method         |  x1   !  x256 |  x1   !  x256 |
----+---------------------------------+-------+-------+-------+-------+
+n  | xor mimic method method         |  FNx1 |FNx256 |  x1   |  x256 |
+---|---------------------------------|-------|-------|-------|-------|
 01 | (a AND NOT b) OR (b AND NOT a)  |  0.24 | 34.18 |  0.22 | 23.74 |
 02 | IF ((a) <> 0) <> ((b) <> 0)     |  #NA  | #NA   |  0.22 | 25.56 |
 03 | NOT NOT a <> NOT NOT b          |  0.36 | 32.38 |  0.22 | 21.58 |
 04 | (A-B)*(A-B)                     |  0.22 | 32.38 |  0.22 | 22.46 | 
 05 | ABS (A-B)                       |  0.24 | 29.60 |  0.20 | 19.56 |
 06 | NOT(A AND B) AND (A OR B)       |  0.26 | 33.66 |  0.20 | 23.48 |
----+---------------------------------+-------+-------+-------+-------+
 
-[live performance test data sheet](   https://docs.google.com/spreadsheets/d/1gIcXWzl98PcUVWsTl_Q9AqaaVZWXGzfZoju-cEnj5f8/edit?usp=sharing)
-
+[live performance test data sheet](https://docs.google.com/spreadsheets/d/1gIcXWzl98PcUVWsTl_Q9AqaaVZWXGzfZoju-cEnj5f8/edit?usp=sharing)
 
 # How to perform a test
 
@@ -163,3 +159,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 ```
+
+# LICENCE
+[BSD 2-Clause License](./LICENCE)
