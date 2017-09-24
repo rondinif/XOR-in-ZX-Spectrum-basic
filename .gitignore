@@ -1,0 +1,10 @@
+# hey git, please excluse ronda's private file folder from this repo
+ronda
+
+# exclude tapes 
+target 
+
+# info: https://derekbolli.wordpress.com/2012/11/16/create-zx-spectrum-basic-program-tap-file-from-text-source-file-in-bbedit-using-zmakebas/
+
+# source archive (zip)  https://www.dropbox.com/s/tcu58zie6lyhnv5/zmakebas-1.5.zip?dl=1
+zmakebas-1.5/
