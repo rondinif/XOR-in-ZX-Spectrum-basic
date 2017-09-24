@@ -22,6 +22,8 @@ n  | xor mimic method method         |  FNx1 |FNx256 |  x1   |  x256 |
 ## Launching tests from VS Code IDE/Editor 
 see: .vscode/task.json and scripts/test
 
+[![zx spectrum basic xor](http://img.youtube.com/vi/UK2-3ux7GPc/0.jpg)](https://youtu.be/UK2-3ux7GPc "zx spectrum basic xor")
+
 # Project Dependencies
 The he demo in development environment: ``` macOS Sierra 10.12.6 (16G29) Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64 ```
 needs the following programs to be installed:
