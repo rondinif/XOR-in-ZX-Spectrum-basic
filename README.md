@@ -8,6 +8,7 @@ n  | xor mimic method method         |  FNx1 |FNx256 |  x1   |  x256 |
 04 | (A-B)*(A-B)                     |  0.22 | 32.38 |  0.22 | 22.46 | 
 05 | ABS (A-B)                       |  0.24 | 29.60 |  0.20 | 19.56 |
 06 | NOT(A AND B) AND (A OR B)       |  0.26 | 33.66 |  0.20 | 23.48 |
+07 | (NOT a <> NOT b)                |  0.24 | 30.92 |  0.22 | 20.60 |
 
 [live performance test data sheet](https://docs.google.com/spreadsheets/d/1gIcXWzl98PcUVWsTl_Q9AqaaVZWXGzfZoju-cEnj5f8/edit?usp=sharing)
 
