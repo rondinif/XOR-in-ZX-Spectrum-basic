@@ -31,4 +31,4 @@
  160 NEXT a 
  165 NEXT i
  166 LET t3=FN t()
- 169 PRINT "time taken for 4096 ..:";t3-t2
+ 169 PRINT "for 256 iterations:";t3-t2
